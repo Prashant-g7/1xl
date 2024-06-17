@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Prashant Gupta</h1>
+            <p>Welcome to my portfolio website! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+            <button onclick="window.location.href='#portfolio'">View My Portfolio</button>
+        </section>
+        <section id="portfolio">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <h3>Real Estate Management System</h3>
+                    <p>This was a group project in which we developed a website which helps the Real Estate business to grow by providing them full functionality of the website including backend. In this website we can rent, sell or purchase any property also we can upload our property for selling or renting. The technologies used in this project are HTML, JAVA, JSP, SERVLETS, JAVA SCRIPT, CSS, BOOTSTRAP, POSTGRE SQL, ECLIPSE. My role in this project was to develope fully responsive web pages including validation. </p>
+                    <img src="project1.jpg" alt="Project 1 Image">
+                </li>
+                <li>
+                    <h3>Faculty Information System</h3>
+                    <p>This was a group project in which we developed a website which helps the students of any college to get research paper and other information of a particular faculty. Faculties can login with their login id and password and upload their research paper, personal information, notes and students can access them by login to their account. The technologies used in this project are HTML, PHP, JAVA SCRIPT, BOOTSTRAP, CSS, ECLIPSE, ORACLE. </p>
+                    <img src="project2.jpg" alt="Project 2 Image">
+                </li>
+                <!-- Add more projects here -->
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <form action="https://formspree.io/your-email@example.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Prashant Gupta</p>
+            <a class="footer_social_media" href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+            <a class="footer_social_media" href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+            <!-- Add more social media links here -->
+       
+    </footer>
+</body>
+</html>
